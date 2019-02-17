@@ -2,37 +2,37 @@
 include("top.php");
 include("nav.php");
 
-$directory = "/Users/joshuachilds/Desktop/undergrad_uvm/web-dev/add-on-high/images";
+$directory = "images";
 
 
 
 $files = scandir($directory);
+//print_r($files)
 
-$chunky_files = array_chunk($files, count($files) / 4);
 ?>
 <main class='row content'>
 
     <?php
     print "<section class='column index-image'>\n";
-    for ($i = 2; $i <= 8; $i++) {
+    for ($i = 3; $i <= 9; $i++) {
         print "<img src= 'images/" . $files[$i] . "' > \n";
     }
     print "</section>\n";
 
     print "<section class='column index-image'>\n";
-    for ($i = 9; $i <= 15; $i++) {
+    for ($i = 10; $i <= 16; $i++) {
         print "<img src= 'images/" . $files[$i] . "' > \n";
     }
     print "</section>\n";
 
     print "<section class='column index-image'>\n";
-    for ($i = 16; $i <= 22; $i++) {
+    for ($i = 17; $i <= 23; $i++) {
         print "<img src= 'images/" . $files[$i] . "' > \n";
     }
     print "</section>\n";
 
     print "<section class='column index-image'>\n";
-    for ($i = 23; $i <= 29; $i++) {
+    for ($i = 24; $i <= 30; $i++) {
         print "<img src= 'images/" . $files[$i] . "' > \n";
     }
     print "</section>\n";
