@@ -4,12 +4,8 @@
 
       <button class = "navbar-toggler" type="button" data-toggle="collapse" data-target = "#navbarMenu"
       aria-controls="navbarMenu" aria-expanded = "false" aria-label="Toggle Navigation">
-
       <span class="navbar-toggler-icon"></span>
       </button>
-
-      <!-- <div class="collapse navbar-collapse"></div>  THIS "CENTERS THE NAV"-->
-      <!-- Below is code for the collapsable navbarMenu, try resizing page so you you can see the "hamburger" button.-->
       <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="navbar-nav mr-auto" >
           <li class="nav-item active">
@@ -35,7 +31,5 @@
             PODCASTS
           </button>
         </form>
-
       </div>
-
     </nav>

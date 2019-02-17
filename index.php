@@ -7,8 +7,6 @@ $directory = "images";
 
 
 $files = scandir($directory);
-//print_r($files)
-
 ?>
 <main class='row content'>
 
@@ -68,4 +66,3 @@ $files = scandir($directory);
 
 </body>
 </html>
-<!--****************************START SECTION 1******************************-->
