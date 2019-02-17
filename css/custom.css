@@ -2,31 +2,36 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Istok+Web|Lalezar|Lato|Noto+Serif+KR|Poppins|Scada|Ubuntu');
 
 /*********************Index***********************************/
-.index-image img{
+#index .index-image img{
   border:5px solid #222;
   width: 100%;
+  /* height: 300px; */
 }
 
-.content{
+#index .content{
   margin: .5em;
 }
 /*********************Image Grid***********************************/
-* {
-  box-sizing: border-box;
+#index section > img:last-child::after{
+  content: "~"
 }
 
-body {
+#index {
   margin: 0;
   font-family: Arial;
   background-color: #f3f3f3;
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Lato';
 }
 
-.header {
+
+#index .header {
   text-align: center;
   padding: 32px;
 }
 
-.row {
+#index .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
@@ -35,25 +40,19 @@ body {
 }
 
 /* Create four equal columns that sits next to each other */
-.column {
+#index .column {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
 
-.column img {
+#index .column img {
   margin-top: 8px;
   vertical-align: middle;
 }
 
 /*********************End Image Grid***********************************/
-
-body{
-  padding: 0%;
-  margin: 0%;
-  font-family: 'Lato';
-}
 /******Navigation******/
 
 nav{

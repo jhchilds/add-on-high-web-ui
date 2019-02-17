@@ -1,10 +1,11 @@
 <?php
 include("top.php");
+?>
+<body id="index">
+<?php
 include("nav.php");
 
 $directory = "images";
-
-
 
 $files = scandir($directory);
 ?>
@@ -12,26 +13,26 @@ $files = scandir($directory);
 
     <?php
     print "<section class='column index-image'>\n";
-    for ($i = 3; $i <= 9; $i++) {
-        print "<img src= 'images/" . $files[$i] . "' > \n";
+    for ($i = 3; $i <= 11; $i++) {
+        print "<img src= 'images/" . $files[$i] . "' alt=''> \n";
     }
     print "</section>\n";
 
     print "<section class='column index-image'>\n";
-    for ($i = 10; $i <= 16; $i++) {
-        print "<img src= 'images/" . $files[$i] . "' > \n";
+    for ($i = 12; $i <= 20; $i++) {
+        print "<img src= 'images/" . $files[$i] . "' alt=''> \n";
     }
     print "</section>\n";
 
     print "<section class='column index-image'>\n";
-    for ($i = 17; $i <= 23; $i++) {
-        print "<img src= 'images/" . $files[$i] . "' > \n";
+    for ($i = 21; $i <= 29; $i++) {
+        print "<img src= 'images/" . $files[$i] . "' alt=''> \n";
     }
     print "</section>\n";
 
     print "<section class='column index-image'>\n";
-    for ($i = 24; $i <= 30; $i++) {
-        print "<img src= 'images/" . $files[$i] . "' > \n";
+    for ($i = 30; $i <= 38; $i++) {
+        print "<img src= 'images/" . $files[$i] . "' alt=''> \n";
     }
     print "</section>\n";
     ?>

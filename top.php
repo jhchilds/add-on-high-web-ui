@@ -12,4 +12,3 @@
      <link rel="stylesheet" href="css/custom.css" >
      <title>ADD on HIGH</title>
   </head>
-  <body>
