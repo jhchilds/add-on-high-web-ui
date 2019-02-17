@@ -4,7 +4,7 @@
 /*********************Index***********************************/
 .index-image img{
   border:5px solid #222;
-
+  width: 100%;
 }
 
 .content{
@@ -47,23 +47,6 @@ body {
   vertical-align: middle;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 /*********************End Image Grid***********************************/
 
 body{
@@ -74,7 +57,7 @@ body{
 /******Navigation******/
 
 nav{
-  background-color: black !important;
+  background-color: #222 !important;
 }
 .navbar-brand{
   font-family:'Lalezar';
@@ -90,6 +73,27 @@ nav{
 }
 
 .nav-link:hover{
-  color:yellow !important;
-  text-decoration: underline;
+  color:grey !important;
+  text-decoration: none;
+}
+
+
+
+
+/* Responsive layout INDEX - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout INDEX - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
